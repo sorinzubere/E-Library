@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
+    background-image: url(cool.png);
 }
 #pTitle{
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font:bold;
     font-style: inherit;
@@ -17,7 +17,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#homeP{
+  text-align: center;
+    color:#0b7dda;
+    font-weight: bold;
+    font-style: oblique;
+  
+}
+#homeList{
+  list-style-type:circle;
+  text-align: justify;
+  font-weight: bold;
+  font-style: oblique;
+}
 .menu{
+    margin-top: 30px;
     color: black;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -71,13 +85,6 @@ body{
   clear: both;
   display: table;
 }
-#homeP{
-    text-align: center;
-}
-#homeList{
-    list-style-type: none;
-    text-align: justify;
-}
 .book-list{
   margin-top: 50px;
   visibility: hidden ;
@@ -87,15 +94,12 @@ body{
   display:contents;
 }
 .container #search-box{
-  
   font-size: 17px;
   border: 1px solid grey;
   width: 80%;
   background: #f1f1f1
 }
 .container #search{
-  
-  
   background: #2196F3;
   color: white;
   font-size: 17px;
@@ -112,5 +116,4 @@ body{
 }
 div #input{
   margin-top: 30px;
-
 }
