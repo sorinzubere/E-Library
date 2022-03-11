@@ -70,7 +70,7 @@ $(document).ready(function() {
 
      function formatOutput(bookImg, title, author, publisher, bookLink ) {
       
-       var viewUrl = 'book.html?title='+title;
+       var viewUrl = bookLink;
        var htmlCard = `<div class="col-lg-6">
          <div class="card" style="">
            <div class="row no-gutters">
