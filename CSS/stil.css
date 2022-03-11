@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+#pTitle{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font:bold;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(2, 27, 73);
+}
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.menu a{
+  color: #070707;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.menu a.active{
+    background-color: #2196F3;
+    color: white;    
+}
+.srch{
+    margin-top: 30px;
+    display:contents;
+    align-items: center;
+}
+.srch input[type=text]{
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+}
+.srch button{
+  margin-top: 30px;
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.srch button:hover{
+  background: #0b7dda;
+}
+.srch::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#homeP{
+    text-align: center;
+}
+#homeList{
+    list-style-type: none;
+    text-align: justify;
+}
+.book-list{
+  margin-top: 50px;
+  visibility: hidden ;
+}
+.container {
+  margin-top: 30px;
+  display:contents;
+}
+.container #search-box{
+  
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 80%;
+  background: #f1f1f1
+}
+.container #search{
+  
+  
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.container #search:hover{
+  background: #0b7dda;
+}
+.container #search::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+div #input{
+  margin-top: 30px;
+
+}
